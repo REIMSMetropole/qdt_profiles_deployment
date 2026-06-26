@@ -1,0 +1,12 @@
+# -- QDT usual patterns --
+
+# Common
+!.gitkeep
+*.log
+*.code-workspace
+
+# QGIS Profiles
+profiles/*/python/plugins/
+profiles/*/previewImages/
+*.db
+*.*~

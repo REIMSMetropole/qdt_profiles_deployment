@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
+  "name": "test Qdt",
+  "folder_name": "test_qdt",
+  "description": "Test de QDT dans l'infra CUGR.",
+  "author": "Pierre Muckensturm",
+  "email": "pierre.muckensturm@grandreims.fr",
+  "icon": "images/icon.png",
+  "qgisMinimumVersion": "3.34.0",
+  "qgisMaximumVersion": "3.99.10",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "Profile Manager",
+      "folder_name": "profile-manager",
+      "official_repository": true,
+      "plugin_id": 2515,
+      "version": "0.31"
+    }
+  ],
+  "splash": "images/splash.png"
+}
